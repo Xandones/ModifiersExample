@@ -5,7 +5,7 @@ int main()
 	std::cout << "VARIBLES SIZES IN MEMORY" << "\n";
 	std::cout << "------------------------------------------------------------------------------------------------------------------------" << "\n";
 	std::cout << "Size of char : " << sizeof(char) << " bytes" << std::endl;
-	std::cout << "Size of wchar_t : " << sizeof(wchar_t) << " bytes" << std::endl;
+	std::cout << "Size of wchar_t : " << sizeof(wchar_t) << " bytes" << std::endl; // Wide char: alows use of Unicodes's UTF-16 characters. 
 	std::cout << "Size of int : " << sizeof(int) << " bytes" << std::endl; // This is the signed int - the default integer type. It's not necessary to type signed.
 	std::cout << "Size of short int : " << sizeof(short int) << " bytes" << std::endl; // Reduced int type to save memory.
 	std::cout << "Size of long int : " << sizeof(long int) << " bytes" << std::endl; // Expanded int range. It'll consume more memory. 
